@@ -28,4 +28,4 @@ python run_all.py
 
 ## Acknowledgement
 
-We use the code of [DITTO](https://github.com/megagonlabs/ditto) and [AttrGNN](https://github.com/thunlp/explore-and-evaluate).
+We use the code of [Ditto](https://github.com/megagonlabs/ditto) and [AttrGNN](https://github.com/thunlp/explore-and-evaluate).
