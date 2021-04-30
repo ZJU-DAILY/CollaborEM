@@ -13,7 +13,7 @@ class BERT(object):
     # For entity alignment, the best layer is 1
     def __init__(self):
         self.tokenizer = BertTokenizer.from_pretrained('bert-base-cased', do_lower_case=False)
-        self.model = BertModel.from_pretrained('./lm_model/bert-base-uncased', output_hidden_states=True)
+        self.model = BertModel.from_pretrained('bert-base-uncased', output_hidden_states=True)
         self.model.eval()
         self.pad_token_id = self.tokenizer.encode(self.tokenizer.pad_token)[0]
         self.cls_token_id = self.tokenizer.encode(self.tokenizer.cls_token)[0]
