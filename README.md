@@ -11,7 +11,7 @@ CollaborER, a self-supervised entity resolution framework via multi-features col
 * CUDA 11.0
 * HuggingFace Transformers 4.4.2
 * Sentence Transformers 1.0.4
-* NVIDIA Apex (fp16 training)
+* NVIDIA Apex (fp16)
 
 ## Datasets
 
