@@ -5,11 +5,11 @@ import numpy as np
 from transformers import BertModel, AlbertModel, DistilBertModel, RobertaModel, XLNetModel
 
 
-model_ckpts = {'bert': "bert-base-uncased",
-               'albert': "albert-base-v2",
-               'roberta': "roberta-base",
-               'xlnet': "xlnet-base-cased",
-               'distilbert': "distilbert-base-uncased"}
+model_ckpts = {'bert': "./lm_model/bert-base-uncased",
+               'albert': "./lm_model/albert-base-v2",
+               'roberta': "./lm_model/roberta-base",
+               'xlnet': "./lm_model/xlnet-base-cased",
+               'distilbert': "./lm_model/distilbert-base-uncased"}
 
 
 class LMNet(nn.Module):
