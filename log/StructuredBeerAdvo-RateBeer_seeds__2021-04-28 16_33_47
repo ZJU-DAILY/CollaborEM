@@ -1,0 +1,9 @@
+2021-04-28 16:33:47 INFO     Namespace(data_name='Structured/BeerAdvo-RateBeer', hard_sample=True, left=2, right=10, seed=2021, vis_device='0')
+2021-04-28 16:33:47 INFO     Hard sample.
+2021-04-28 16:33:47 INFO     Seed: 2021
+2021-04-28 16:33:47 INFO     Left: 2, Right: 10
+2021-04-28 16:33:47 INFO     Compute embedding...
+2021-04-28 16:33:53 INFO     Time: 0.3041.
+2021-04-28 16:33:53 INFO     Num positive seeds: 1108.
+2021-04-28 16:33:53 INFO     Num negative seeds: 17417.
+2021-04-28 16:33:53 INFO     Num seeds: 18525

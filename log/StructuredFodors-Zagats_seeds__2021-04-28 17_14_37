@@ -1,0 +1,9 @@
+2021-04-28 17:14:37 INFO     Namespace(data_name='Structured/Fodors-Zagats', hard_sample=True, left=2, right=10, seed=2021, vis_device='0')
+2021-04-28 17:14:37 INFO     Hard sample.
+2021-04-28 17:14:37 INFO     Seed: 2021
+2021-04-28 17:14:37 INFO     Left: 2, Right: 10
+2021-04-28 17:14:37 INFO     Compute embedding...
+2021-04-28 17:14:39 INFO     Time: 0.0361.
+2021-04-28 17:14:39 INFO     Num positive seeds: 113.
+2021-04-28 17:14:39 INFO     Num negative seeds: 1683.
+2021-04-28 17:14:39 INFO     Num seeds: 1796

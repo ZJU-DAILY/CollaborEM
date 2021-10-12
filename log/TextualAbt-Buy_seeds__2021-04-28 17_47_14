@@ -1,0 +1,9 @@
+2021-04-28 17:47:14 INFO     Namespace(data_name='Textual/Abt-Buy', hard_sample=True, left=2, right=10, seed=2021, vis_device='0')
+2021-04-28 17:47:14 INFO     Hard sample.
+2021-04-28 17:47:14 INFO     Seed: 2021
+2021-04-28 17:47:14 INFO     Left: 2, Right: 10
+2021-04-28 17:47:14 INFO     Compute embedding...
+2021-04-28 17:47:18 INFO     Time: 0.0911.
+2021-04-28 17:47:18 INFO     Num positive seeds: 258.
+2021-04-28 17:47:18 INFO     Num negative seeds: 3912.
+2021-04-28 17:47:18 INFO     Num seeds: 4170

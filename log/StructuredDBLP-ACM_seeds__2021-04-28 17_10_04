@@ -1,0 +1,9 @@
+2021-04-28 17:10:04 INFO     Namespace(data_name='Structured/DBLP-ACM', hard_sample=True, left=2, right=10, seed=2021, vis_device='0')
+2021-04-28 17:10:04 INFO     Hard sample.
+2021-04-28 17:10:04 INFO     Seed: 2021
+2021-04-28 17:10:04 INFO     Left: 2, Right: 10
+2021-04-28 17:10:04 INFO     Compute embedding...
+2021-04-28 17:10:09 INFO     Time: 0.2029.
+2021-04-28 17:10:10 INFO     Num positive seeds: 2139.
+2021-04-28 17:10:10 INFO     Num negative seeds: 30315.
+2021-04-28 17:10:10 INFO     Num seeds: 32454

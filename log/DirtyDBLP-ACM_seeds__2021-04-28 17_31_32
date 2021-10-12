@@ -1,0 +1,9 @@
+2021-04-28 17:31:32 INFO     Namespace(data_name='Dirty/DBLP-ACM', hard_sample=True, left=2, right=10, seed=2021, vis_device='0')
+2021-04-28 17:31:32 INFO     Hard sample.
+2021-04-28 17:31:32 INFO     Seed: 2021
+2021-04-28 17:31:32 INFO     Left: 2, Right: 10
+2021-04-28 17:31:32 INFO     Compute embedding...
+2021-04-28 17:31:36 INFO     Time: 0.1980.
+2021-04-28 17:31:37 INFO     Num positive seeds: 1948.
+2021-04-28 17:31:37 INFO     Num negative seeds: 28331.
+2021-04-28 17:31:37 INFO     Num seeds: 30279

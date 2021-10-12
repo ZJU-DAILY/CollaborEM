@@ -1,0 +1,9 @@
+2021-04-28 17:20:12 INFO     Namespace(data_name='Structured/iTunes-Amazon', hard_sample=True, left=2, right=10, seed=2021, vis_device='0')
+2021-04-28 17:20:12 INFO     Hard sample.
+2021-04-28 17:20:12 INFO     Seed: 2021
+2021-04-28 17:20:12 INFO     Left: 2, Right: 10
+2021-04-28 17:20:12 INFO     Compute embedding...
+2021-04-28 17:21:06 INFO     Time: 2.6502.
+2021-04-28 17:21:07 INFO     Num positive seeds: 525.
+2021-04-28 17:21:07 INFO     Num negative seeds: 8015.
+2021-04-28 17:21:07 INFO     Num seeds: 8540

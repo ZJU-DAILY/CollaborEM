@@ -1,0 +1,9 @@
+2021-04-28 17:39:06 INFO     Namespace(data_name='Dirty/iTunes-Amazon', hard_sample=True, left=2, right=10, seed=2021, vis_device='0')
+2021-04-28 17:39:06 INFO     Hard sample.
+2021-04-28 17:39:06 INFO     Seed: 2021
+2021-04-28 17:39:06 INFO     Left: 2, Right: 10
+2021-04-28 17:39:06 INFO     Compute embedding...
+2021-04-28 17:39:55 INFO     Time: 2.6696.
+2021-04-28 17:39:56 INFO     Num positive seeds: 492.
+2021-04-28 17:39:56 INFO     Num negative seeds: 7592.
+2021-04-28 17:39:56 INFO     Num seeds: 8084

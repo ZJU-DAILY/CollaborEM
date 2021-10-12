@@ -1,0 +1,9 @@
+2021-04-28 16:28:07 INFO     Namespace(data_name='Structured/Amazon-Google', hard_sample=True, left=2, right=10, seed=2021, vis_device='0')
+2021-04-28 16:28:07 INFO     Hard sample.
+2021-04-28 16:28:07 INFO     Seed: 2021
+2021-04-28 16:28:07 INFO     Left: 2, Right: 10
+2021-04-28 16:28:07 INFO     Compute embedding...
+2021-04-28 16:28:11 INFO     Time: 0.2062.
+2021-04-28 16:28:11 INFO     Num positive seeds: 447.
+2021-04-28 16:28:11 INFO     Num negative seeds: 6884.
+2021-04-28 16:28:11 INFO     Num seeds: 7331

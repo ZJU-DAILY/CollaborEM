@@ -1,0 +1,194 @@
+2021-04-28 16:28:38 INFO     Namespace(add_token=True, data_name='Structured/Amazon-Google', digital=False, fp16=True, literal=False, lr=2e-05, n_epoch=6, name=True, save_model=False, scheduler=False, seed=2021, skip=True, structure=True, vis_device='0')
+2021-04-28 16:28:38 INFO     {'name': 'Structured/Amazon-Google', 'model': 'stsb-roberta-base', 'max_length': '256', 'batch_size': '64', 'epoch': 6, 'fine_tune_model': 'xlnet', 'lenA': 1363, 'lenB': 3226, 'literal_channel': False, 'digital_channel': False, 'structure_channel': True, 'name_channel': True, 'path': './data/ER-Magellan/Structured/Amazon-Google', 'save_path': './checkpoint/ER-Magellan/Structured/Amazon-Google'}
+2021-04-28 16:28:38 INFO     Seed: 2021
+2021-04-28 16:28:42 INFO     Num seeds: 7331
+2021-04-28 16:28:52 INFO     LMNet(
+  (bert): XLNetModel(
+    (word_embedding): Embedding(32000, 768)
+    (layer): ModuleList(
+      (0): XLNetLayer(
+        (rel_attn): XLNetRelativeAttention(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ff): XLNetFeedForward(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+          (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (1): XLNetLayer(
+        (rel_attn): XLNetRelativeAttention(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ff): XLNetFeedForward(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+          (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (2): XLNetLayer(
+        (rel_attn): XLNetRelativeAttention(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ff): XLNetFeedForward(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+          (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (3): XLNetLayer(
+        (rel_attn): XLNetRelativeAttention(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ff): XLNetFeedForward(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+          (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (4): XLNetLayer(
+        (rel_attn): XLNetRelativeAttention(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ff): XLNetFeedForward(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+          (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (5): XLNetLayer(
+        (rel_attn): XLNetRelativeAttention(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ff): XLNetFeedForward(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+          (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (6): XLNetLayer(
+        (rel_attn): XLNetRelativeAttention(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ff): XLNetFeedForward(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+          (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (7): XLNetLayer(
+        (rel_attn): XLNetRelativeAttention(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ff): XLNetFeedForward(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+          (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (8): XLNetLayer(
+        (rel_attn): XLNetRelativeAttention(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ff): XLNetFeedForward(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+          (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (9): XLNetLayer(
+        (rel_attn): XLNetRelativeAttention(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ff): XLNetFeedForward(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+          (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (10): XLNetLayer(
+        (rel_attn): XLNetRelativeAttention(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ff): XLNetFeedForward(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+          (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (11): XLNetLayer(
+        (rel_attn): XLNetRelativeAttention(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ff): XLNetFeedForward(
+          (layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (layer_1): Linear(in_features=768, out_features=3072, bias=True)
+          (layer_2): Linear(in_features=3072, out_features=768, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+    )
+    (dropout): Dropout(p=0.1, inplace=False)
+  )
+  (module_dict): ModuleDict(
+    (classification_dropout): Dropout(p=0.1, inplace=False)
+    (classification_fc1): Linear(in_features=1024, out_features=2, bias=True)
+  )
+)
+2021-04-28 16:28:52 INFO     epoch: 1
+2021-04-28 16:29:28 INFO     [Test]  precision: 0.6383  recall: 0.5128  F1: 0.5687
+2021-04-28 16:29:41 INFO     [All]  precision: 0.6357  recall: 0.5159  F1: 0.5695
+2021-04-28 16:29:41 INFO     epoch: 2
+2021-04-28 16:30:17 INFO     [Test]  precision: 0.5025  recall: 0.8675  F1: 0.6364
+2021-04-28 16:30:30 INFO     [All]  precision: 0.4761  recall: 0.8346  F1: 0.6063
+2021-04-28 16:30:30 INFO     epoch: 3
+2021-04-28 16:31:05 INFO     [Test]  precision: 0.6916  recall: 0.6709  F1: 0.6811
+2021-04-28 16:31:18 INFO     [All]  precision: 0.6682  recall: 0.6195  F1: 0.6430
+2021-04-28 16:31:18 INFO     epoch: 4
+2021-04-28 16:31:54 INFO     [Test]  precision: 0.6449  recall: 0.7607  F1: 0.6980
+2021-04-28 16:32:07 INFO     [All]  precision: 0.6093  recall: 0.7189  F1: 0.6596
+2021-04-28 16:32:07 INFO     epoch: 5
+2021-04-28 16:32:42 INFO     [Test]  precision: 0.7136  recall: 0.6068  F1: 0.6559
+2021-04-28 16:32:55 INFO     [All]  precision: 0.6964  recall: 0.5818  F1: 0.6340
+2021-04-28 16:32:55 INFO     epoch: 6
+2021-04-28 16:33:31 INFO     [Test]  precision: 0.6655  recall: 0.7821  F1: 0.7191
+2021-04-28 16:33:44 INFO     [All]  precision: 0.6348  recall: 0.7464  F1: 0.6861
+2021-04-28 16:33:44 INFO     Finish training!
+2021-04-28 16:33:44 INFO     [Result]
+2021-04-28 16:33:44 INFO     [Test]  precision: 0.6655  recall: 0.7821  F1: 0.7191
+2021-04-28 16:33:44 INFO     [All]  precision: 0.6348  recall: 0.7464  F1: 0.6861
