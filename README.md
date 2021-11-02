@@ -33,6 +33,8 @@ We conduct experiments on eight representative and widely-used ER benchmarks wit
 
 The dataset configurations can be found in ``configs.json``. 
 
+You can download checkpoints and additional resources [here](https://drive.google.com/file/d/1fwkcjreQjjyTyi4qrSFBWv0sBTjsS1Rd/view?usp=sharing). 
+
 ## Training with CollaborER
 
 To train the matching model with CollaborER:
