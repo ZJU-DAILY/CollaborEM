@@ -33,14 +33,17 @@ We conduct experiments on eight representative and widely-used ER benchmarks wit
 
 The dataset configurations can be found in ``configs.json``. 
 
-You can download checkpoints and additional resources [here](https://drive.google.com/file/d/1fwkcjreQjjyTyi4qrSFBWv0sBTjsS1Rd/view?usp=sharing). 
 
 ## Training with CollaborER
+
+Download and unzip [preprocessed data](https://drive.google.com/file/d/13UvUh8RMlm28WCoubXIJC9q9NMtMW2yU/view?usp=sharing).
 
 To train the matching model with CollaborER:
 ```
 python run_all.py
 ```
+
+You can download checkpoints [here](https://drive.google.com/file/d/1kAP5niP4Etye4cuarAXm6xbxDYkyHGnS/view?usp=sharing). 
 
 ## Acknowledgement
 
