@@ -97,20 +97,11 @@ def get_tokenizer(lm='bert'):
     tokenizer = None
     if lm == 'bert':
         from transformers import BertTokenizer
-        tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-    elif lm == 'distilbert':
-        from transformers import DistilBertTokenizer
-        tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-uncased')
-    elif lm == 'albert':
-        from transformers import AlbertTokenizer
-        tokenizer = AlbertTokenizer.from_pretrained('albert-base-v2')
+        tokenizer = BertTokenizer.from_pretrained('./lm_model/bert-base-uncased')
     elif lm == 'roberta':
         from transformers import RobertaTokenizer
-        tokenizer = RobertaTokenizer.from_pretrained('roberta-base')
+        tokenizer = RobertaTokenizer.from_pretrained('./lm_model/roberta-base')
     elif lm == 'xlnet':
         from transformers import XLNetTokenizer
-        tokenizer = XLNetTokenizer.from_pretrained('xlnet-base-cased')
-    elif lm == 'longformer':
-        from transformers import LongformerTokenizer
-        tokenizer = LongformerTokenizer.from_pretrained('allenai/longformer-base-4096')
+        tokenizer = XLNetTokenizer.from_pretrained('./lm_model/xlnet-base-cased')
     return tokenizer
