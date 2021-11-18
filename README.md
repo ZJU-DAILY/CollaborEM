@@ -29,7 +29,7 @@ source er/bin/activate
 
 ## Datasets
 
-We conduct experiments on eight representative and widely-used ER benchmarks with different sizes and in various domains from [DeepMatcher paper](http://pages.cs.wisc.edu/~anhai/papers1/deepmatcher-sigmod18.pdf).
+We conduct experiments on eight representative and widely-used EM benchmarks with different sizes and in various domains from [DeepMatcher paper](http://pages.cs.wisc.edu/~anhai/papers1/deepmatcher-sigmod18.pdf).
 
 The dataset configurations can be found in ``configs.json``. 
 
