@@ -2,7 +2,7 @@
 
 CollaborEM, a self-supervised entity matching framework via multi-features collaboration. It is capable of (i) obtaining reliable ER results with zero human annotations and (ii) discovering adequate tuples’ features in a fault-tolerant manner. CollaborEM consists of two phases, i.e., automatic label generation (ALG) and collaborative EM training (CEMT). In the first phase, ALG is proposed to generate a set of positive tuple pairs and a set of negative tuple pairs. ALG guarantees the high quality of the generated tuples, and hence ensure the training quality of the subsequent CEMT. In the second phase, CEMT is introduced to learn the matching signals by discovering graph features and sentence features of tuples collaboratively.
 
-For more technical details, see [CollaborER: A Self-supervised Entity Resolution Framework using Multi-features Collaboration](https://arxiv.org/abs/2108.08090).
+For more technical details, see [CollaborEM: A Self-supervised Entity Matching Framework using Multi-features Collaboration](https://ieeexplore.ieee.org/abstract/document/9647870).
 
 ![framework](framework.jpg)
 
